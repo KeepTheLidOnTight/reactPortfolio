@@ -5,29 +5,18 @@ function Projects() {
     <div className="container mt-5 rounded bg-light">
         <div className="row">
         <div className="col">
-            <h1 className="pt-3 pl-3">WHAT CAN I DO SO FAR?</h1>
+            <h1 className="pt-3 pl-3" >Portfolio - take a look at some recent projects I made, including group projects I collaborated on!</h1>
             <hr />
             <div className="row row-cols-1 row-cols-md-2">
               <div className="col mb-4">
                 <div className="card">
-                    <img src="https://samergain.github.io/samers-portfolio/images/burgerify.png" className="card-img-top" alt="screenshot of burgerify project" />
+                    <img src="creditcroc.png" className="card-img-top" alt="Credit Croc" />
                     <div className="card-body">
-                      <h5 className="card-title">Burgerify</h5>
-                      <a href="https://github.com/samergain/Burgerify" target="_blank" rel="noreferrer">Burgerify</a>
-                      <p className="card-text">This project will burgerify your burgers implementing MVC design using Express,Node,Handlebars,MySQL and topped with ORM sauce. This project is <a href="https://powerful-ridge-10363.herokuapp.com/" targer="_blank">deployed on Heroku</a> using JAWSDB add-on.</p>
+                      <h5 className="card-title">Credit Croc</h5>
+                      <a href="https://github.com/coryjquirk/croconaw-squad" target="_blank" rel="noreferrer">Credit Croc</a>
                     </div>
                 </div>
                 </div>
-                <div className="col mb-4">
-                  <div className="card">
-                    <img src="https://samergain.github.io/samers-portfolio/images/Santas.png" className="card-img-top" alt="screenshot of santas project" /> 
-                      <div className="card-body">
-                      <h5 className="card-title">Santa's Bag</h5>
-                      <a href="https://github.com/samergain/Santas_Bag" target="_blank" rel="noreferrer">Manage your budget and gifts</a>
-                      <p className="card-text">This app built to help you manage the gifts for your loved ones during the holidays season. Run the app on <a href="https://santas-bag.herokuapp.com/" targer="_blank">heroku</a></p>
-                      </div>
-                  </div>
-                  </div>
                 <div className="col mb-4">
                 <div className="card">
                     <img src="https://github.com/samergain/work-day-scheduler/raw/master/workday.png" className="card-img-top" alt="screenshot of work-day-scheduler project" />

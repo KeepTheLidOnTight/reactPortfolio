@@ -1,12 +1,12 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-function NavTabs() {
+function Navbar() {
     const location = useLocation();
     return (
     <nav class="navbar navbar-expand-md navbar-light sticky-top mb-5">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-          Samer Saadoun
+          Ryan P Freese
         </Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,10 +24,10 @@ function NavTabs() {
                 </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="mailto:samersadon@gmail.com">Contact</a>
+              <a class="nav-link" href="mailto:ryan.p.freese@gmail.com">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1TPcobVc03DrdZef2hvOeJAJwNOzeDMZK/view?usp=sharing">Resume</a>
+              <a class="nav-link" target="_blank" rel="noreferrer" href="Ryan Freese Resume .pdf">Resume</a>
             </li>
           </ul>
         </div>
@@ -35,4 +35,4 @@ function NavTabs() {
   );
 }
 
-export default NavTabs;
+export default Navbar;
